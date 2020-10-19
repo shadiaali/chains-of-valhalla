@@ -1,0 +1,33 @@
+
+name: 'Belgradechild'
+type: theme
+base theme: belgrade
+description: 'Belgradechild theme for Drupal Commerce.'
+package: 'Bootstrap'
+core: '8.x'
+
+regions:
+  navigation: 'Navigation'
+  top_navigation: 'Navigation (Top bar)'
+  header: 'Header'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries-extend:
+  assets/bootstrap/framework:
+    -'belgradechild/framework'
+
+libraries:
+  - 'belgradechild/fonts'
+  - 'belgradechild/theme'
+
+
+
+
+

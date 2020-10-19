@@ -1,0 +1,91 @@
+//
+// Header
+// --------------------------------------------------
+
+
+a {
+  color: #419f97 !important;
+  text-decoration: none !important;
+}
+
+body {
+  
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png") !important;}
+
+
+
+.side-flyout {
+  
+  width: 100%;
+  height: 100vh !important;
+ 
+}
+
+.field--label{
+  display:none !important;
+}
+
+.commerce-product{
+  background-color:#333333;
+  margin:20px;
+}
+
+.group-header{
+  background-color:#333333;
+  .field--item{
+    color: #FFFFFF;
+    text-align:center;
+    font-size:2.5em;
+    font-family: Norse Regular;
+  }
+}
+
+.group-footer{
+  background-color:#333333;
+  text-align:center;
+}
+
+.panel{
+  background-color:#333333;
+  text-align:center;
+  padding:10px;
+}
+
+
+
+.panel-title{
+  color: #FFFFFF;
+  font-weight: 300;
+  font-family: Lato;
+  font-size:1.5em;
+
+}
+
+.field--item{
+  color: #FFFFFF;
+  text-align:center;
+  font-size:1.5em;
+  font-family: Lato;
+  font-weight:300;
+}
+
+.button--add-to-cart{
+  margin-bottom:20px;
+}
+
+.btn-default, .path-cart [id="edit-submit"] {
+  color: #FFF !important;
+  background-color: #419f97 !important;
+  border-color: #419f97;
+}
+
+.cart-block--contents__links{
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size:2em;
+
+  a{
+    color: #FFFFFF !important;
+  }
+}

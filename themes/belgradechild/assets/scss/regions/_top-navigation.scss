@@ -1,0 +1,19 @@
+//
+// Top Navigation
+// --------------------------------------------------
+.region-top-navigation {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  height: $navbar-height;
+
+  .logo{
+    margin-left: auto;
+    margin-right: auto;
+  max-height:230px !important;
+  max-width:480px !important;
+  width:100%;
+  }
+
+}
